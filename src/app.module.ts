@@ -5,11 +5,17 @@ import { MissionModule } from './mission/mission.module';
 import { RuleModule } from './rule/rule.module';
 import { PunishmentModule } from './punishment/punishment.module';
 import { SeedModule } from './seed/seed.module';
+import { ConfigModule } from '@nestjs/config';
+import { EnvConfiguration } from './config/app.config';
 
 @Module({
   imports: [
     AuthModule,
-    MongooseModule.forRoot('mongodb+srv://germinatorcofee:7N1mwTYn6qVnb0MG@wwwmypcdb.usm4lic.mongodb.net/highTable'),
+    ConfigModule.forRoot({
+      load: [EnvConfiguration]
+    }
+    ),
+    MongooseModule.forRoot(EnvConfiguration().mongodb),
     MissionModule,
     RuleModule,
     PunishmentModule,
@@ -18,4 +24,4 @@ import { SeedModule } from './seed/seed.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule { }

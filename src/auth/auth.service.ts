@@ -70,10 +70,20 @@ export class AuthService {
     };
   }
 
-  async getMembers() {
+  async getMember() {
     return await this.userModel.find({ rank: 'member' }, { _id: 0, email: 1, alias: 1, rank: 1, missions: 1 });
   }
-  
+
+  async getMembers(term: string) {
+    let query = !isNaN(+term) ? { id: term } : { _id: term };
+
+    let user = await this.userModel.findOne(query);
+
+    if (!user)
+      throw new BadRequestException(`User with term ${term} not found`);
+    return user;
+  }
+
   async validate(token: string): Promise<{ si: boolean; message: string }> {
     try {
       this.jwtService.verify(token);

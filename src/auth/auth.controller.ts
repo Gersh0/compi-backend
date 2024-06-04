@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, UseGuards } from '@nestjs/common';
+import { Controller, Get, Post, Body, UseGuards, Param } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { AuthService } from './auth.service';
 import { CreateUserDto, LoginUserDto } from './dto';
@@ -27,8 +27,13 @@ export class AuthController {
   }
 
   @Get('members')
-  getMembers() {
-    return this.authService.getMembers();
+  getMember() {
+    return this.authService.getMember();
+  }
+
+  @Get('members/:id')
+  getMembers(@Param('id') id: string) {
+    return this.authService.getMembers(id);
   }
 
   // to validate a token

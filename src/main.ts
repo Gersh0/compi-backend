@@ -1,7 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common/pipes/validation.pipe';
-import cors from 'cors-ts';
 
 
 async function main() {
@@ -10,7 +9,7 @@ async function main() {
 
   app.enableCors({
     //Add your origins here
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173"],
   });
 
   app.useGlobalPipes(new ValidationPipe(
@@ -24,6 +23,7 @@ async function main() {
     }
   ));
   app.setGlobalPrefix('api/v2');
-  await app.listen(2024);
+  await app.listen(process.env.PORT);
+  console.log(`Application is running on: ${await process.env.PORT}`);
 }
 main();
