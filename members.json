@@ -1,0 +1,567 @@
+{
+    "users": [
+        {
+            "alias": "John Wick",
+            "email": "johnwick@example.com",
+            "password": "randompassword1",
+            "id": "a1b2c3",
+            "rank": "leader",
+            "missions": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "alias": "leader",
+            "email": "leader@example.com",
+            "password": "randompassword1",
+            "id": "a1b2c3",
+            "rank": "leader",
+            "missions": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "alias": "adjudicator",
+            "email": "adjudicator@example.com",
+            "password": "randompassword2",
+            "id": "d4e5f6",
+            "rank": "adjudicator",
+            "missions": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        },
+        {
+            "alias": "member1",
+            "email": "member1@example.com",
+            "password": "randompassword3",
+            "id": "g7h8i9",
+            "rank": "member",
+            "missions": [
+                "1",
+                "3",
+                "9"
+            ]
+        },
+        {
+            "alias": "member2",
+            "email": "member2@example.com",
+            "password": "randompassword4",
+            "id": "j1k2l3",
+            "rank": "member",
+            "missions": [
+                "1",
+                "4",
+                "9"
+            ]
+        },
+        {
+            "alias": "member3",
+            "email": "member3@example.com",
+            "password": "randompassword5",
+            "id": "m4n5o6",
+            "rank": "member",
+            "missions": [
+                "2",
+                "5",
+                "9"
+            ]
+        },
+        {
+            "alias": "member4",
+            "email": "member4@example.com",
+            "password": "randompassword6",
+            "id": "p7q8r9",
+            "rank": "member",
+            "missions": [
+                "2",
+                "6",
+                "9"
+            ]
+        },
+        {
+            "alias": "member5",
+            "email": "member5@example.com",
+            "password": "randompassword7",
+            "id": "s1t2u3",
+            "rank": "member",
+            "missions": [
+                "3",
+                "7",
+                "9"
+            ]
+        },
+        {
+            "alias": "member6",
+            "email": "member6@example.com",
+            "password": "randompassword8",
+            "id": "v4w5x6",
+            "rank": "member",
+            "missions": [
+                "3",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member7",
+            "email": "member7@example.com",
+            "password": "randompassword9",
+            "id": "y7z8a9",
+            "rank": "member",
+            "missions": [
+                "4",
+                "9"
+            ]
+        },
+        {
+            "alias": "member8",
+            "email": "member8@example.com",
+            "password": "randompassword10",
+            "id": "b1c2d3",
+            "rank": "member",
+            "missions": [
+                "4",
+                "9"
+            ]
+        },
+        {
+            "alias": "member9",
+            "email": "member9@example.com",
+            "password": "randompassword11",
+            "id": "e4f5g6",
+            "rank": "member",
+            "missions": [
+                "5",
+                "9"
+            ]
+        },
+        {
+            "alias": "member10",
+            "email": "member10@example.com",
+            "password": "randompassword12",
+            "id": "h7i8j9",
+            "rank": "member",
+            "missions": [
+                "5",
+                "9"
+            ]
+        },
+        {
+            "alias": "member11",
+            "email": "member11@example.com",
+            "password": "randompassword13",
+            "id": "k1l2m3",
+            "rank": "member",
+            "missions": [
+                "6",
+                "9"
+            ]
+        },
+        {
+            "alias": "member12",
+            "email": "member12@example.com",
+            "password": "randompassword14",
+            "id": "n4o5p6",
+            "rank": "member",
+            "missions": [
+                "6",
+                "9"
+            ]
+        },
+        {
+            "alias": "member13",
+            "email": "member13@example.com",
+            "password": "randompassword15",
+            "id": "q7r8s9",
+            "rank": "member",
+            "missions": [
+                "7",
+                "9"
+            ]
+        },
+        {
+            "alias": "member14",
+            "email": "member14@example.com",
+            "password": "randompassword16",
+            "id": "t1u2v3",
+            "rank": "member",
+            "missions": [
+                "7",
+                "9"
+            ]
+        },
+        {
+            "alias": "member15",
+            "email": "member15@example.com",
+            "password": "randompassword17",
+            "id": "w4x5y6",
+            "rank": "member",
+            "missions": [
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member16",
+            "email": "member16@example.com",
+            "password": "randompassword18",
+            "id": "z7a8b9",
+            "rank": "member",
+            "missions": [
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member17",
+            "email": "member17@example.com",
+            "password": "randompassword19",
+            "id": "c1d2e3",
+            "rank": "member",
+            "missions": [
+                "9"
+            ]
+        },
+        {
+            "alias": "member18",
+            "email": "member18@example.com",
+            "password": "randompassword20",
+            "id": "f4g5h6",
+            "rank": "member",
+            "missions": [
+                "20"
+            ]
+        },
+        {
+            "alias": "member19",
+            "email": "member19@example.com",
+            "password": "randompassword21",
+            "id": "i7j8k9",
+            "rank": "member",
+            "missions": [
+                "21"
+            ]
+        },
+        {
+            "alias": "member20",
+            "email": "member20@example.com",
+            "password": "randompassword22",
+            "id": "l1m2n3",
+            "rank": "member",
+            "missions": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "alias": "member21",
+            "email": "member21@example.com",
+            "password": "randompassword23",
+            "id": "o4p5q6",
+            "rank": "member",
+            "missions": [
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "alias": "member22",
+            "email": "member22@example.com",
+            "password": "randompassword24",
+            "id": "r7s8t9",
+            "rank": "member",
+            "missions": [
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member23",
+            "email": "member23@example.com",
+            "password": "randompassword25",
+            "id": "u1v2w3",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member24",
+            "email": "member24@example.com",
+            "password": "randompassword26",
+            "id": "x4y5z6",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member25",
+            "email": "member25@example.com",
+            "password": "randompassword27",
+            "id": "a7b8c9",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member26",
+            "email": "member26@example.com",
+            "password": "randompassword28",
+            "id": "d1e2f3",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member27",
+            "email": "member27@example.com",
+            "password": "randompassword29",
+            "id": "g4h5i6",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "alias": "member28",
+            "email": "member28@example.com",
+            "password": "randompassword30",
+            "id": "j7k8l9",
+            "rank": "member",
+            "missions":[
+                "7",
+                "8",
+                "9"
+            ]
+        }
+    ],
+    "missions": [
+        {
+            "id": "1",
+            "name": "Mission 1",
+            "description": "Mission 1 Description",
+            "members": [
+                "a1b2c3",
+                "g7h8i9",
+                "j1k2l3"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Mission 2",
+            "description": "Mission 2 Description",
+            "members": [
+                "d4e5f6",
+                "m4n5o6",
+                "p7q8r9"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Mission 3",
+            "description": "Mission 3 Description",
+            "members": [
+                "g7h8i9",
+                "s1t2u3",
+                "v4w5x6"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Mission 4",
+            "description": "Mission 4 Description",
+            "members": [
+                "j1k2l3",
+                "y7z8a9",
+                "b1c2d3"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Mission 5",
+            "description": "Mission 5 Description",
+            "members": [
+                "m4n5o6",
+                "e4f5g6",
+                "h7i8j9"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Mission 6",
+            "description": "Mission 6 Description",
+            "members": [
+                "p7q8r9",
+                "k1l2m3",
+                "n4o5p6"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Mission 7",
+            "description": "Mission 7 Description",
+            "members": [
+                "s1t2u3",
+                "q7r8s9",
+                "t1u2v3"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Mission 8",
+            "description": "Mission 8 Description",
+            "members": [
+                "v4w5x6",
+                "w4x5y6",
+                "z7a8b9"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Mission 9",
+            "description": "Mission 9 Description",
+            "members": [
+                "y7z8a9",
+                "c1d2e3"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "id": "1",
+            "code": "smfmfjdjs",
+            "description": "Rule 1 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "2",
+            "code": "s53f8d6s74",
+            "description": "Rule 2 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "3",
+            "code": "s53f8d6s74",
+            "description": "Rule 3 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "4",
+            "code": "s53f8d6s74",
+            "description": "Rule 4 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "5",
+            "code": "s53f8d6s74",
+            "description": "Rule 5 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "6",
+            "code": "s53f8d6s74",
+            "description": "Rule 6 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "7",
+            "code": "s53f8d6s74",
+            "description": "Rule 7 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "8",
+            "code": "s53f8d6s74",
+            "description": "Rule 8 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "9",
+            "code": "s53f8d6s74",
+            "description": "Rule 9 Description",
+            "leader": "a1b2c3"
+        },
+        {
+            "id": "10",
+            "code": "s53f8d6s74",
+            "description": "Rule 10 Description",
+            "leader": "a1b2c3"
+        }
+    ],
+    "punishments": [
+        {
+            "id": "1",
+            "description": "punihsment 1 description",
+            "cause": "cause 1"
+        },
+        {
+            "id": "2",
+            "description": "punihsment 2 description",
+            "cause": "cause 2"
+        },
+        {
+            "id": "3",
+            "description": "punihsment 3 description",
+            "cause": "cause 3"
+        },
+        {
+            "id": "4",
+            "description": "punihsment 4 description",
+            "cause": "cause 4"
+        },
+        {
+            "id": "5",
+            "description": "punihsment 5 description",
+            "cause": "cause 5"
+        },
+        {
+            "id": "6",
+            "description": "punihsment 6 description",
+            "cause": "cause 6"
+        },
+        {
+            "id": "7",
+            "description": "punihsment 7 description",
+            "cause": "cause 7"
+        },
+        {
+            "id": "8",
+            "description": "punihsment 8 description",
+            "cause": "cause 8"
+        },
+        {
+            "id": "9",
+            "description": "punihsment 9 description",
+            "cause": "cause 9"
+        },
+        {
+            "id": "10",
+            "description": "punihsment 10 description",
+            "cause": "cause 10"
+        }
+    ]
+}
