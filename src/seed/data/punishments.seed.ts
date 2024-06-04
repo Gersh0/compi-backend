@@ -14,4 +14,14 @@ export const PUNISHMENT_SEED = [
         description: 'Permanent ban from the system.',
         cause: "Severe offenses",
     },
+    {
+        id: 4,
+        description: 'A fine of 1000 credits.',
+        cause: "Minor offenses",
+    },
+    {
+        id: 5,
+        description: 'A fine of 5000 credits.',
+        cause: "Major offenses",
+    }
 ];

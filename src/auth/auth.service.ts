@@ -21,22 +21,25 @@ export class AuthService {
     createUserDto.alias = createUserDto.alias.toLowerCase();
     try {
       const { password, ...userData } = createUserDto;
-      const user = await this.userModel.create({
+      let user = await this.userModel.create({
         ...userData,
         password: await bcrypt.hashSync(password, 10)
       });
 
-      user.password = '';
-      const userObject = user.toObject();
-      delete userObject.password;
+      user = user.toObject();
+      delete user.password;
+      delete user._id;
+      delete user.__v;
+      delete user.id;
+      console.log(user);
       return {
-        userObject,
+        user,
+        si: true,
         token: this.getJwtToken({ email: user.email })
       };
     } catch (error) {
       this.handleDBErrors(error);
     }
-    return 'This action adds a new auth';
   }
   /*
   si: boolean
@@ -67,6 +70,10 @@ export class AuthService {
     };
   }
 
+  async getMembers() {
+    return await this.userModel.find({ rank: 'member' }, { _id: 0, email: 1, alias: 1, rank: 1, missions: 1 });
+  }
+  
   async validate(token: string): Promise<{ si: boolean; message: string }> {
     try {
       this.jwtService.verify(token);

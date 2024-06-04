@@ -26,6 +26,11 @@ export class AuthController {
     }
   }
 
+  @Get('members')
+  getMembers() {
+    return this.authService.getMembers();
+  }
+
   // to validate a token
   @Post('validate')
   validateToken(@Body('token') token: string) {
