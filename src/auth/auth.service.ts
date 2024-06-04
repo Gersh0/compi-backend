@@ -71,7 +71,7 @@ export class AuthService {
   }
 
   async getMember() {
-    return await this.userModel.find({ rank: 'member' }, { _id: 0, email: 1, alias: 1, rank: 1, missions: 1 });
+    return await this.userModel.find( {}, { _id: 0, email: 1, alias: 1, rank: 1, missions: 1 });
   }
 
   async getMembers(term: string) {
