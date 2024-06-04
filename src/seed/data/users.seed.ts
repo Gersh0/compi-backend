@@ -15,6 +15,7 @@ export const USERS_SEED = [
         email: "user1@example.com",
         password: bcrypt.hashSync("Abc123", 10),
         alias: "User 1",
+        rank: "member",
         missions: []
     },
     {
@@ -22,6 +23,7 @@ export const USERS_SEED = [
         email: "user2@example.com",
         password: bcrypt.hashSync("Abc123", 10),
         alias: "User 2",
+        rank: "member",
         missions: []
     },
     {
@@ -29,6 +31,7 @@ export const USERS_SEED = [
         email: "user3@example.com",
         password: bcrypt.hashSync("Abc123", 10),
         alias: "User 3",
+        rank: "member",
         missions: []
     }
 ];
